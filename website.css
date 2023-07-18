@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Poppins:wght@300;600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "poppins", "sans-serif";
+}
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+/* nav bar */
+#navbar {
+  position: static;
+  top: 0;
+  background: whites;
+}
+.bold {
+  font-size: 25px;
+}
+
+li {
+  padding: 5px;
+}
+.nav-link {
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid transparent;
+}
+.nav-link:hover {
+  border-bottom: 2px solid rgba(0, 0, 255, 0.705);
+  transition: 0.1s;
+}
+
+/* ----------Home----------- */
+
+span {
+  color: blue;
+  font-weight: bold;
+}
+.p {
+  font-size: 18px;
+}
+
+/* About */
+
+#about img {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 20%;
+}
+/* img hover styles  */
+
+.card img {
+  transition: 0.3s;
+}
+.inner {
+  overflow: hidden;
+}
+.card img:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+/* contact */
+
+form {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), -1px -1px 5px rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 30px;
+}
+
+.center-text {
+  text-align: center;
+}

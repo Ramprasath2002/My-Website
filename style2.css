@@ -1,0 +1,24 @@
+.container
+* {
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  box-shadow: 3px 3px 15px black;
+ 
+}
+
+
+.column {
+ float: right;
+  width: 31%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: flex;
+  clear: both;
+}
+
+
